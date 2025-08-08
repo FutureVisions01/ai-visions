@@ -1,0 +1,68 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "slug": "weather-idol-sites-2044",
+    "title": "WEATHER IDOL SITES \u2014 2044",
+    "subtitle": "",
+    "year": 2044,
+    "createdAt": "2025-08-08T17:06:18.745420Z",
+    "updatedAt": "2025-08-08T17:06:18.745427Z",
+    "format": "image",
+    "media": [
+      {
+        "url": "/media/weather-idol-1.png",
+        "type": "image",
+        "alt": "Weather idol site"
+      }
+    ],
+    "caption": "Low altars for high pressure. Prayer flags stitched from isobars.",
+    "story": "They built the shrines where the wind broke and the clouds stalled, mapping pressure with prayer and ritual instruments tuned to the breath of the sky. Pilgrims brought glass barometers and small brass compasses, leaving them to fog and tarnish. When the fronts shifted, the idols clicked softly, as if acknowledging the trade.",
+    "themes": [
+      "atmospheric worship"
+    ],
+    "tags": [
+      "stratiform",
+      "ritual",
+      "barometer relics"
+    ],
+    "mood": [
+      "solemn",
+      "grainy"
+    ],
+    "nsfwFlag": false,
+    "views": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "slug": "mirrorwater-interference-2038",
+    "title": "MIRRORWATER INTERFERENCE \u2014 2038",
+    "subtitle": "",
+    "year": 2038,
+    "createdAt": "2025-08-08T17:06:18.745430Z",
+    "updatedAt": "2025-08-08T17:06:18.745431Z",
+    "format": "image",
+    "media": [
+      {
+        "url": "/media/mirrorwater-poster.png",
+        "type": "image",
+        "alt": "Mirrorwater interference"
+      }
+    ],
+    "caption": "Signals skim the surface; the lake answers in ripples of syntax.",
+    "story": "At dusk, receivers hummed across the shoreline. The water returned a pattern no one fully owned\u2014part echo, part refusal. We learned to wait between crests where the language thinned, where meaning dissolved into a clean, metallic hush.",
+    "themes": [
+      "reflective lakes",
+      "signal distortions"
+    ],
+    "tags": [
+      "interference",
+      "ripples"
+    ],
+    "mood": [
+      "eerie",
+      "hushed"
+    ],
+    "nsfwFlag": false,
+    "views": 0
+  }
+]

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Global styles for AI Visions.  Most of the styling is
+ * accomplished through Tailwind utility classes within the
+ * components themselves; however a few opinionated defaults are
+ * provided here for typography and layout.
+ */
+
+html,
+body {
+  @apply min-h-screen bg-zinc-950 text-zinc-200 font-sans antialiased;
+}
+
+a {
+  @apply text-brand hover:underline;
+}
+
+/* Prose styling for story text */
+.prose {
+  @apply max-w-none prose-invert prose-zinc;
+}
+.prose p {
+  @apply leading-relaxed my-4;
+}
+
+/* Hide scrollbars on WebKit but preserve scrolling */
+body::-webkit-scrollbar {
+  @apply w-2;
+}
+body::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700 rounded;
+}
+body::-webkit-scrollbar-track {
+  @apply bg-zinc-900;
+}

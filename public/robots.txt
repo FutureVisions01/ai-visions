@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# When deploying set NEXT_PUBLIC_SITE_URL in your environment.
+Sitemap: https://ai-visions.example.com/sitemap.xml
