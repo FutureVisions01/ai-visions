@@ -39,7 +39,7 @@ export default function EntryCard({ entry }: EntryCardProps) {
           )}
         </div>
 
-        {/* Text overlay */}
+        {/* Text */}
         <div className="p-3 sm:p-4">
           <div className="flex items-baseline justify-between">
             <h3 className="text-base sm:text-lg font-medium group-hover:text-brand transition-colors">
@@ -57,24 +57,4 @@ export default function EntryCard({ entry }: EntryCardProps) {
       </div>
     </Link>
   );
-}
-
-            src={previewSrc}
-            alt={media.alt || entry.title}
-            fill
-            className="object-cover object-center transition-opacity duration-300 group-hover:opacity-75"
-          />
-        </div>
-        <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-zinc-950/90 via-zinc-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-          <h3 className="text-lg font-medium mb-1">{entry.title}</h3>
-          <p className="text-sm text-zinc-400 overflow-hidden text-ellipsis">
-            {entry.caption}
-          </p>
-        </div>
-        <span className="absolute top-2 right-2 bg-zinc-800 text-xs px-2 py-1 rounded">
-          {entry.year}
-        </span>
-      </motion.div>
-    </Link>
-  )
 }
